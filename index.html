@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doou Franc Manassé — Portfolio Développeur</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Feuille de style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ==================== NAVIGATION ==================== -->
+<nav>
+  <div class="logo">&lt;Doou_Dev/&gt;</div>
+  <ul class="nav-links">
+    <li><a href="#about"    data-num="">À propos</a></li>
+    <li><a href="#skills"   data-num="">Compétences</a></li>
+    <li><a href="#cursus"   data-num="">Cursus</a></li>
+    <li><a href="#projects" data-num="">Projets</a></li>
+    <li><a href="#services" data-num="">Services</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Me contacter</a>
+</nav>
+
+
+<!-- ==================== HERO ==================== -->
+<section id="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+
+  <!-- Contenu texte à gauche -->
+  <div class="hero-content">
+    <div class="hero-tag">Disponible pour des missions freelance</div>
+
+    <h1 class="hero-name">
+      <span class="gradient-name">Doou Franc</span><br>Manassé
+    </h1>
+
+    <!-- Effet de frappe animé -->
+    <p class="hero-role">
+      <span id="typing-role">Développeur Web</span><span class="cursor">|</span>
+    </p>
+
+    <p class="hero-desc">
+      Passionné par la logique et la création numérique, je maîtrise la conception de
+      <strong>bases de données, algorithmes et applications web</strong>.
+      Avec mon associé, nous aidons les <strong>PME à se digitaliser</strong>
+      avec des sites modernes et sur mesure.
+    </p>
+
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">
+        <span>Voir mes projets</span>
+        <span>→</span>
+      </a>
+      <a href="#contact" class="btn-secondary">
+        <span>Discutons de votre projet</span>
+      </a>
+      <!-- Bouton CV : place ton fichier cv-doou-franc-manasse.pdf dans le même dossier -->
+      <a href="cv-doou-franc-manasse.pdf" download class="btn-cv">
+        <span>📄</span>
+        <span>Télécharger CV</span>
+      </a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">5+</div>
+        <div class="stat-label">Projets réalisés</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">2</div>
+        <div class="stat-label">Années d'études</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">∞</div>
+        <div class="stat-label">Motivation</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Photo à droite dans le hero -->
+  <div class="hero-photo">
+    <div class="photo-frame">
+      <img src="image1.jpeg" alt="Doou Franc Manassé">
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ==================== À PROPOS ==================== -->
+<section id="about">
+  <div class="about-grid">
+
+    <div class="about-text reveal">
+      <div class="section-label">À propos de moi</div>
+      <h2 class="section-title">Jeune dev,<br><span>grandes ambitions</span></h2>
+
+      <p>
+        Bonjour ! Je suis <strong>Doou Franc Manassé</strong>, étudiant en informatique
+        et développement d'applications, passionné par la logique, la conception de
+        systèmes et la résolution de problèmes techniques.
+      </p>
+      <p>
+        Ma formation solide en <strong>algorithmique, MERISE et bases de données</strong>
+        me permet de concevoir des solutions bien structurées, du modèle conceptuel
+        jusqu'à l'application finale.
+      </p>
+      <p>
+        Avec mon associé <strong>Sow Boubakar</strong>, nous avons lancé une
+        <strong>micro-agence digitale</strong> dédiée à accompagner les PME et startups
+        dans leur transformation numérique — conception, développement et mise en ligne
+        de sites web sur mesure.
+      </p>
+    </div>
+
+    <div class="reveal">
+      <div class="about-card">
+        <div class="about-card-title">// infos.json</div>
+        <ul class="info-list">
+          <li>
+            <span class="info-key">Nom</span>
+            <span class="info-val">Doou Franc Manassé</span>
+          </li>
+          <li>
+            <span class="info-key">Formation</span>
+            <span class="info-val">BTS Informatique &amp; Dév. App. · ETIC</span>
+          </li>
+          <li>
+            <span class="info-key">Localisation</span>
+            <span class="info-val">Abidjan, Côte d'Ivoire 🇨🇮</span>
+          </li>
+          <li>
+            <span class="info-key">Email</span>
+            <span class="info-val">
+              <a href="mailto:fmanasse16@gmail.com">fmanasse16@gmail.com</a>
+            </span>
+          </li>
+          <li>
+            <span class="info-key">Langues</span>
+            <span class="info-val">Français, Anglais</span>
+          </li>
+          <li>
+            <span class="info-key">Dispo.</span>
+            <span class="info-val" style="color: var(--accent3)">● Disponible</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ==================== COMPÉTENCES ==================== -->
+<section id="skills">
+  <div class="section-label">Compétences</div>
+  <h2 class="section-title">Mon <span>stack technique</span></h2>
+
+  <div class="skills-grid">
+
+    <div class="skill-category reveal">
+      <div class="skill-cat-icon c-purple">🌐</div>
+      <div class="skill-cat-name">Développement Web</div>
+      <div class="skill-bars">
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>HTML5</span><span>85%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="85"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>CSS3</span><span>80%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="80"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>PHP</span><span>55%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="55"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-category reveal">
+      <div class="skill-cat-icon c-green">⚙️</div>
+      <div class="skill-cat-name">Programmation</div>
+      <div class="skill-bars">
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>Visual Basic</span><span>60%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="60"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>Langage C</span><span>50%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="50"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>Pascal</span><span>50%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="50"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>Algorithmique</span><span>70%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="70"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-category reveal">
+      <div class="skill-cat-icon c-amber">🗄️</div>
+      <div class="skill-cat-name">Bases de données &amp; Modélisation</div>
+      <div class="skill-bars">
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>MERISE / MCD</span><span>75%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="75"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>SQL</span><span>65%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="65"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>SGBD</span><span>60%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="60"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-category reveal">
+      <div class="skill-cat-icon c-pink">🚀</div>
+      <div class="skill-cat-name">Soft Skills &amp; Autres</div>
+      <div class="skill-bars">
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>Travail en équipe</span><span>90%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="90"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>Créativité &amp; Communication</span><span>85%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="85"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>Config. PC &amp; Logiciels</span><span>80%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="80"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>Install. systèmes &amp; apps</span><span>80%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="80"></div></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ==================== CURSUS ==================== -->
+<section id="cursus">
+  <div class="section-label">Cursus</div>
+  <h2 class="section-title">Mon <span>parcours académique</span></h2>
+
+  <div class="timeline reveal">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">Novembre 2025 — Aujourd'hui</div>
+      <div class="timeline-degree">BTS — Brevet de Technicien Supérieur en Informatique &amp; Développement d'Applications</div>
+      <div class="timeline-school">ETIC — École Technique Informatique et Commerciale · Abidjan</div>
+      <div class="timeline-desc">
+        Spécialisation en développement d'applications, algorithmique, bases de données,
+        modélisation MERISE et systèmes d'information.
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2024 — 2025</div>
+      <div class="timeline-degree">Classes préparatoires / Bac +1</div>
+      <div class="timeline-school">À préciser</div>
+      <div class="timeline-desc">
+        Introduction aux fondamentaux de l'informatique, programmation orientée objet,
+        mathématiques appliquées.
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot" style="background: var(--accent3); box-shadow: 0 0 12px rgba(52,211,153,0.5);"></div>
+      <div class="timeline-date">2024</div>
+      <div class="timeline-degree">Baccalauréat</div>
+      <div class="timeline-school">À préciser</div>
+      <div class="timeline-desc">
+        Obtenu avec mention. Forte orientation en mathématiques et sciences.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ==================== PROJETS ==================== -->
+<section id="projects">
+  <div class="section-label">Projets</div>
+  <h2 class="section-title">Ce que j'ai <span>réalisé</span></h2>
+
+  <div class="projects-grid">
+
+    <!-- Projet 1 : Site vitrine -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon c-purple">🌐</div>
+        <div class="project-links">
+          <a href="https://github.com/manasse05" class="project-link" title="GitHub" target="_blank">⎇</a>
+          <a href="#" class="project-link" title="Demo">↗</a>
+        </div>
+      </div>
+      <div class="project-title">Site Vitrine d'une Boutique</div>
+      <div class="project-desc">
+        Conception et développement d'un site vitrine responsive pour une petite boutique locale.
+        Présentation des produits, formulaire de contact et page d'accueil animée.
+      </div>
+      <div class="project-tech">
+        <span class="tech-tag">HTML5</span>
+        <span class="tech-tag">CSS3</span>
+        <span class="tech-tag">PHP</span>
+      </div>
+    </div>
+
+    <!-- Projet 2 : Gestion de stock -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon c-green">📦</div>
+        <div class="project-links">
+          <a href="https://github.com/manasse05" class="project-link" title="GitHub" target="_blank">⎇</a>
+        </div>
+      </div>
+      <div class="project-title">Application de Gestion de Stock</div>
+      <div class="project-desc">
+        Application desktop permettant de gérer les entrées et sorties de stock d'une petite entreprise.
+        Ajout, modification, suppression de produits et génération de rapports.
+      </div>
+      <div class="project-tech">
+        <span class="tech-tag">Visual Basic</span>
+        <span class="tech-tag">SQL</span>
+        <span class="tech-tag">SGBD</span>
+      </div>
+    </div>
+
+    <!-- Projet 3 : BDD MERISE -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon c-amber">🗄️</div>
+        <div class="project-links">
+          <a href="https://github.com/manasse05" class="project-link" title="GitHub" target="_blank">⎇</a>
+        </div>
+      </div>
+      <div class="project-title">Modélisation BDD d'une École</div>
+      <div class="project-desc">
+        Conception complète d'une base de données pour la gestion d'un établissement scolaire :
+        MCD, MLD, MPD avec MERISE, puis implémentation SQL (élèves, cours, notes, enseignants).
+      </div>
+      <div class="project-tech">
+        <span class="tech-tag">MERISE</span>
+        <span class="tech-tag">MCD / MLD</span>
+        <span class="tech-tag">SQL</span>
+        <span class="tech-tag">SGBD</span>
+      </div>
+    </div>
+
+    <!-- Projet 4 : Algorithmes en C -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon c-pink">⚙️</div>
+        <div class="project-links">
+          <a href="https://github.com/manasse05" class="project-link" title="GitHub" target="_blank">⎇</a>
+        </div>
+      </div>
+      <div class="project-title">Algorithmes de Tri &amp; Recherche</div>
+      <div class="project-desc">
+        Implémentation et comparaison de plusieurs algorithmes classiques : tri à bulles,
+        tri par insertion, recherche binaire. Analyse de complexité et visualisation des résultats.
+      </div>
+      <div class="project-tech">
+        <span class="tech-tag">Langage C</span>
+        <span class="tech-tag">Algorithmique</span>
+        <span class="tech-tag">Pascal</span>
+      </div>
+    </div>
+
+    <!-- Projet 5 : Inscription PHP -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon c-blue">📋</div>
+        <div class="project-links">
+          <a href="https://github.com/manasse05" class="project-link" title="GitHub" target="_blank">⎇</a>
+          <a href="#" class="project-link" title="Demo">↗</a>
+        </div>
+      </div>
+      <div class="project-title">Système d'Inscription en Ligne</div>
+      <div class="project-desc">
+        Formulaire d'inscription dynamique avec validation côté serveur, stockage en base de données
+        et envoi de confirmation par email. Interface claire et responsive.
+      </div>
+      <div class="project-tech">
+        <span class="tech-tag">HTML5</span>
+        <span class="tech-tag">CSS3</span>
+        <span class="tech-tag">PHP</span>
+        <span class="tech-tag">SQL</span>
+      </div>
+    </div>
+
+    <!-- Carte "en cours" -->
+    <div class="project-card reveal" style="border-style: dashed; display: flex; align-items: center; justify-content: center; min-height: 220px; cursor: default;">
+      <div style="text-align: center; color: var(--text2);">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">+</div>
+        <div style="font-family: var(--font-mono); font-size: 0.82rem;">Projets en cours...</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ==================== SERVICES ==================== -->
+<section id="services">
+  <div class="section-label">Services</div>
+  <h2 class="section-title">Ce qu'on peut faire<br><span>pour vous</span></h2>
+
+  <p class="services-intro">
+    Avec mon associé <strong>Sow Boubakar</strong>, nous proposons des services de
+    <strong>création web sur mesure</strong> pour les PME, startups et entrepreneurs
+    qui souhaitent avoir une présence digitale professionnelle et abordable.
+  </p>
+
+  <div class="services-grid">
+
+    <div class="service-card reveal">
+      <div class="service-icon">🎨</div>
+      <div class="service-name">Site Vitrine</div>
+      <div class="service-desc">Un site professionnel qui présente votre activité, vos services et vos coordonnées. Responsive, rapide et optimisé SEO.</div>
+      <span class="service-price">Sur devis</span>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">🛍️</div>
+      <div class="service-name">Boutique en ligne</div>
+      <div class="service-desc">Votre e-commerce complet avec catalogue, paiement sécurisé, gestion des stocks et tableau de bord administrateur.</div>
+      <span class="service-price">Sur devis</span>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">📊</div>
+      <div class="service-name">Application Web Métier</div>
+      <div class="service-desc">Applications personnalisées pour automatiser vos processus : gestion RH, facturation, suivi client, dashboards.</div>
+      <span class="service-price">Sur devis</span>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">📱</div>
+      <div class="service-name">App Mobile</div>
+      <div class="service-desc">Développement d'applications pour compléter votre présence digitale et fidéliser vos clients.</div>
+      <span class="service-price">Sur devis</span>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">🔧</div>
+      <div class="service-name">Maintenance &amp; Support</div>
+      <div class="service-desc">Suivi, mises à jour, corrections et support technique de vos projets web existants. Contrats mensuels disponibles.</div>
+      <span class="service-price">Forfait mensuel</span>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">🎯</div>
+      <div class="service-name">Conseil Digital</div>
+      <div class="service-desc">Audit de votre présence en ligne, recommandations UX/UI, stratégie digitale adaptée à votre budget et vos objectifs.</div>
+      <span class="service-price">Gratuit (1ère session)</span>
+    </div>
+
+  </div>
+
+  <div class="services-cta reveal">
+    <div class="services-cta-text">
+      <h3>Vous avez un projet en tête ? 💡</h3>
+      <p>Discutons de vos besoins. Première consultation gratuite et sans engagement.</p>
+    </div>
+    <a href="#contact" class="btn-primary">Démarrer un projet →</a>
+  </div>
+</section>
+
+
+<!-- ==================== CONTACT ==================== -->
+<section id="contact">
+  <div class="section-label">Contact</div>
+  <h2 class="section-title">Travaillons <span>ensemble</span></h2>
+
+  <div class="contact-grid">
+
+    <div class="contact-info reveal">
+      <h3>Discutons de votre projet</h3>
+      <p>Que ce soit pour un projet freelance, une collaboration ou juste pour échanger sur la tech, n'hésitez pas à me contacter.</p>
+
+      <div class="contact-links">
+
+        <a href="mailto:fmanasse16@gmail.com" class="contact-link-item">
+          <div class="contact-link-icon">✉️</div>
+          <div>
+            <div class="contact-link-text">fmanasse16@gmail.com</div>
+            <div class="contact-link-label">Email professionnel</div>
+          </div>
+        </a>
+
+        <a href="https://wa.me/2250576070784?text=Bonjour%20Manassé%2C%20j'ai%20visité%20votre%20portfolio%20et%20je%20souhaite%20vous%20contacter." class="contact-link-item" target="_blank" rel="noopener noreferrer">
+          <div class="contact-link-icon">💬</div>
+          <div>
+            <div class="contact-link-text">+225 05 76 07 07 84</div>
+            <div class="contact-link-label">WhatsApp — Cliquez pour discuter</div>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/franc-manassé-doou-88a312382" class="contact-link-item" target="_blank">
+          <div class="contact-link-icon">🔗</div>
+          <div>
+            <div class="contact-link-text">Franc Manassé Doou</div>
+            <div class="contact-link-label">LinkedIn</div>
+          </div>
+        </a>
+
+        <a href="https://github.com/manasse05" class="contact-link-item" target="_blank">
+          <div class="contact-link-icon">⎇</div>
+          <div>
+            <div class="contact-link-text">Doou Manassé</div>
+            <div class="contact-link-label">@manasse05 · GitHub</div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+    <form class="contact-form reveal" onsubmit="handleSubmit(event)">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Prénom &amp; Nom</label>
+          <input type="text" placeholder="Jean Dupont" required>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="jean@exemple.com" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Type de demande</label>
+        <select>
+          <option value="">Choisir...</option>
+          <option>Site vitrine</option>
+          <option>Boutique en ligne</option>
+          <option>Application web</option>
+          <option>App mobile</option>
+          <option>Maintenance / Support</option>
+          <option>Autre</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Votre message</label>
+        <textarea placeholder="Décrivez votre projet, vos besoins, votre budget estimé..."></textarea>
+      </div>
+      <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; font-size: 0.95rem;">
+        Envoyer le message ✉️
+      </button>
+    </form>
+
+  </div>
+</section>
+
+
+<!-- ==================== FOOTER ==================== -->
+<footer>
+  <div class="footer-left">
+    Conçu &amp; développé par <strong>Doou Franc Manassé</strong> — Abidjan 🇨🇮 · 2025
+  </div>
+
+  <!-- Icônes réseaux sociaux -->
+  <div class="footer-socials">
+    <a href="https://github.com/manasse05" target="_blank" title="GitHub" class="social-link">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+    </a>
+    <a href="https://www.linkedin.com/in/franc-manassé-doou-88a312382" target="_blank" title="LinkedIn" class="social-link">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    </a>
+    <a href="https://wa.me/2250576070784?text=Bonjour%20Manassé%2C%20j'ai%20visité%20votre%20portfolio%20et%20je%20souhaite%20vous%20contacter." target="_blank" title="WhatsApp" class="social-link">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+    <a href="mailto:fmanasse16@gmail.com" title="Email" class="social-link">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+    </a>
+  </div>
+
+  <ul class="footer-links">
+    <li><a href="#hero">Accueil</a></li>
+    <li><a href="#projects">Projets</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</footer>
+
+<!-- Bouton retour en haut -->
+<button id="btn-top" onclick="scrollToTop()" title="Retour en haut">↑</button>
+
+<!-- Script JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
